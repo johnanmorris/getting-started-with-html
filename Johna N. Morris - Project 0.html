@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Basics of the Web</title>
+</head>
+<body>
+<h1>The Basics of the Web</h1>
+<h2>The Web</h2>
+<p>The web is essentially a collection of documents. Most of these documents are HTML documents (but there are also PDFs, image files, etc). A user uses a <strong>web browser</strong> on his or her computer to view the Internet. In order to do this, the user's computer must send a request with <strong>HTTP</strong> (hypertext transfer protocol) to <strong>servers</strong> which store the HTML pages. The Internet is just a collection of many servers connected together, interpreted through a web browser.</p>
+
+<p>HTML stands for <strong>HyperText Markup Language</strong>. An HTML
+document has three basic components:<br/>
+<strong>text</strong>, or the main content of a page;<br/>
+<strong>markup</strong>, the code telling the computer what a page should look like; and<br/>
+<strong>links to other pages</strong>.</p>
+
+<h2>HTML Markup</h2>
+<p>The basic unit of HTML markup is the <strong>tag</strong>. A tag is always surrounded by angle brackets (< >). Most tags have an opening tag and a closing tag. A closing tag has a forward slash after the first bracket (</ >). Everything between tags is known as an <strong>element</strong>.</p>
+
+<p>Some tags have what is known as an <strong>attribute</strong>.
+An attribute is a property of an HTML element. For example, the anchor
+tag, used to create links (like <a href="http://www.google.com">this one 
+to Google</a>), has an attribute known as <strong>href</strong>. Tags can have more than one attribute; for instance, the <strong>img</strong> tag, used for linking to and displaying images, usually has two attributes, <em>src</em> (for <em>source</em>) and <em>alt</em> (for <em>alternate</em>). The <strong>src</strong> tag is used to link to the url of the image, while
+<strong>alt</strong> displays text if a link to the image is broken or a
+page is being viewed by a blind person.</p>
+
+<p><strong>img</strong> tags are a tag type known as a void tag. This simply means that there is no content (text) within the tag. Void tags do not need closing tags (and, in newer HTML, are "self-closed" with a forward slash immediately before the final angle bracket, like < />). Another void tag is used for line breaks, <strong>br</strong>.</p>
+
+<h2>Inline Tags vs. Block Tags</h2>
+<p><b>Inline tags</b> are tags which occur within a text. Many common tags
+are inline tags, such as:<br/>
+line break: <strong>br</strong> ;<br/>
+image: <strong>img</strong> ;<br/>
+italics: <em>em</em> ; and <br/>
+bold: <b>b</b> or <strong>strong</strong>.<br/></p>
+
+<p>On the other hand, a <strong>block tag</strong>, is one that sections
+off an entire section of text, creaking an invisible "box" around an 
+element. The most common block tag is probably the paragraph, or <strong>p</strong> tag.</p>
+
+<h3>Span and Div</h3>
+<p>The difference between inline and block tags can be illustrated by
+comparing the <strong>span</strong> and <strong>div</strong> tags. Both 
+tags are <strong>container</strong> tags&mdash;they surround an element
+in a certain style. However, <strong>span</strong> is an inline tag, existing within a line, while <strong>div</strong> is a block tag, creating a "box" or block around an element.</p>
+
+<h2>HTML Document Structure</h2>
+<p>There are many tags, but all HTML pages have the following parts which
+make up the backbone of a page:</p>
+<p><strong>!DOCTYPE HTML</strong> : tells you what the document type is<br/>
+<strong>html</strong> : This tag starts and ends each HTML document<br/>
+<strong>head</strong> : The <strong>head</strong> tag contains the <em>metadata</em> of a page. This can include the title (enclosed with <strong>title</strong> tags), links to any referenced CSS or JavaScript pages, and the like.<br/>
+<strong>body</strong> : These tags enclose the main body of the 
+page&mdash;all the text, images, and links within a page.</p>
+</body>
+</html>
